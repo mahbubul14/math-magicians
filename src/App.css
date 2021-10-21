@@ -9,6 +9,7 @@
   padding: 20px 10px 10px 20px;
   text-align: right;
   color: white;
+  margin-bottom: 1px;
 }
 
 .orangeBtn {
@@ -16,6 +17,7 @@
 }
 
 .button {
+  display: -ms-grid;
   display: grid;
   grid-template-columns: auto auto auto auto;
 }
