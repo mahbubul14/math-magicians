@@ -12,9 +12,15 @@ export default function operate(numberOne, numberTwo, operation) {
   if (operation === 'x') {
     return one.times(two).toString();
   }
+
   if (operation === '÷') {
-    return one.div(two).toString();
+    try {
+      return one.div(two).toString();
+    } catch (err) {
+      return "Can't divide by 0.";
+    }
   }
+
   if (operation === '%') {
     return one.mod(two).toString();
   }
