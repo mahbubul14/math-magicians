@@ -1,8 +1,8 @@
 import { Route, Switch } from 'react-router-dom';
 import Calculator from './components/Calculator';
 import Navbar from './components/Navbar';
-import Home from './route/Home';
-import Quote from './route/Quote';
+import Home from './components/Home';
+import Quote from './components/Quote';
 import './App.css';
 
 function App() {
