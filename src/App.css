@@ -1,7 +1,17 @@
+a {
+  color: rgb(43, 43, 206);
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+#root {
+  margin: 15px;
+}
+
 .calc {
-  width: 30%;
   margin: 120px auto;
   font-size: 20px;
+  height: 100rem;
 }
 
 .result {
@@ -20,6 +30,17 @@
   display: -ms-grid;
   display: grid;
   grid-template-columns: auto auto auto auto;
+}
+
+.cal-float-right {
+  float: right;
+  margin: -50px 50px 2px 5px;
+  width: 40rem;
+  border: 2px solid black;
+}
+
+.cal-title {
+  font-size: 1.9rem;
 }
 
 button {
@@ -50,10 +71,16 @@ button {
 .navbar ul > li {
   border-right: 2px solid black;
   padding: 2px 10px 2px 30px;
-  color: skyblue;
 }
 
 .navbar ul > li:last-child {
   border: none;
   margin-right: 25px;
+}
+
+.container {
+  text-align: center;
+  margin: 150px;
+  font-size: 1.8rem;
+  color: rgb(73, 64, 64);
 }
