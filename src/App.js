@@ -2,7 +2,7 @@ import { Route, Switch } from 'react-router-dom';
 import Calculator from './components/Calculator';
 import Navbar from './components/Navbar';
 import Home from './route/Home';
-// import Quote from './pages/Quote';
+import Quote from './route/Quote';
 import './App.css';
 
 function App() {
@@ -16,9 +16,9 @@ function App() {
         <Route path="/calculator">
           <Calculator />
         </Route>
-        {/* <Route path="/quote">
+        <Route path="/quote">
           <Quote />
-        </Route> */}
+        </Route>
       </Switch>
     </>
   );
