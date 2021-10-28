@@ -22,7 +22,6 @@ describe('Calculator component', () => {
       ReactDOM.render(<Calculator />, container);
     });
     const numBtn = container.querySelectorAll('.grayBtn')[3];
-    console.log(numBtn.textContent);
     const result = container.querySelector('.result');
     expect(result.textContent).toBe('0');
 
