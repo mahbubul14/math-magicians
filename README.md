@@ -15,6 +15,7 @@
 ## Live Link
 
 - [Heroku](https://math-cal.herokuapp.com/)
+- [Netlify](https://math-cal.netlify.app/)
 
 ## Getting Started
 
